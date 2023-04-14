@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="calculator.css" />
+    <title>oasis calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <div class="heading">
+                <h1>OAScal</h1>
+              </div>
+
+        <form class="calcu" action="">
+            
+          <div class="disp">
+            <input type="text" name="disp" />
+          </div>
+
+          <div>
+            <div>
+              <input
+                type="button"
+                value="AC"
+                class="allbuttons top3"
+                onclick="disp.value =''"
+              />
+              <input
+                type="button"
+                value="DEL"
+                class="allbuttons top3"
+                onclick="disp.value = disp.value.toString().slice(0,-1)"
+              />
+              <input
+                type="button"
+                value="%"
+                class="allbuttons top3"
+                onclick="disp.value +='%'"
+              />
+              <input
+                type="button"
+                value="+"
+                class="allbuttons yellow"
+                onclick="disp.value +='+'"
+              />
+            </div>
+            <div>
+              <input
+                type="button"
+                value="7"
+                class="allbuttons"
+                onclick="disp.value +='7'"
+              />
+              <input
+                type="button"
+                value="8"
+                class="allbuttons"
+                onclick="disp.value +='8'"
+              />
+              <input
+                type="button"
+                value="9"
+                class="allbuttons"
+                onclick="disp.value +='9'"
+              />
+              <input
+                type="button"
+                value="-"
+                class="allbuttons yellow"
+                onclick="disp.value +='-'"
+              />
+            </div>
+            <div>
+              <input
+                type="button"
+                value="4"
+                class="allbuttons"
+                onclick="disp.value +='4'"
+              />
+              <input
+                type="button"
+                value="5"
+                class="allbuttons"
+                onclick="disp.value +='5'"
+              />
+              <input
+                type="button"
+                value="6"
+                class="allbuttons"
+                onclick="disp.value +='6'"
+              />
+              <input
+                type="button"
+                value="*"
+                class="allbuttons yellow xvalue"
+                onclick="disp.value +='*'"
+              />
+            </div>
+            <div>
+              <input
+                type="button"
+                value="1"
+                class="allbuttons"
+                onclick="disp.value +='1'"
+              />
+              <input
+                type="button"
+                value="2"
+                class="allbuttons"
+                onclick="disp.value +='2'"
+              />
+              <input
+                type="button"
+                value="3"
+                class="allbuttons"
+                onclick="disp.value +='3'"
+              />
+              <input
+                type="button"
+                value="/"
+                class="allbuttons yellow"
+                onclick="disp.value +='/'"
+              />
+            </div>
+            <div>
+              <input
+                type="button"
+                value="0"
+                class="zero"
+                onclick="disp.value +='0'"
+              />
+              <input
+                type="button"
+                value="."
+                class="allbuttons"
+                onclick="disp.value +='.'"
+              />
+              <input
+                type="button"
+                value="="
+                class="allbuttons yellow"
+                onclick="disp.value =eval(disp.value)"
+              />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

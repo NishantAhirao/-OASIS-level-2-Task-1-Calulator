@@ -1,0 +1,112 @@
+.container{
+    height: 800px;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+    /* border: 2px solid rgb(184, 56, 56); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calcu{
+    background-color: rgb(0, 0, 0);
+    margin: 2px;
+    padding: 15px;
+    border-radius: 5%;
+    
+
+}
+
+.calcu input{
+    
+    background-color:rgb(68, 68, 68);
+    /* padding: px; */
+    margin: 5px;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    /* box-shadow: -4px -4px 5px rgb(47, 46, 46); */
+    cursor: pointer;
+    outline: 0;
+    font-size: 30px;
+    color: white;
+    border: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+
+}
+
+form .disp{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px, 0px;
+    margin-bottom: 10px;
+    
+}
+
+form .disp input{
+    
+    margin-top: 60px;
+    text-align: right;
+    flex: 1;
+    padding-left: 10px;
+    padding-right: 15px;
+    font-size: 40px;
+    border-radius: 10px;
+    cursor: auto;
+    background-color: black;
+    box-shadow: none;
+    border: 0;
+    /* overflow: scroll; */
+} 
+
+form .zero{
+    width:156px;
+    padding: 0px;
+    border-radius: 100px;
+    
+    /* border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%; */
+    
+    font-size: 30px;
+    
+}
+
+form .allbuttons{
+    font-size: 30px;
+    border: 0;
+
+}
+
+.heading
+{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+   
+    
+    
+    
+}
+
+h1{
+    text-align: center;
+    margin: 0%;
+}
+
+form .yellow{
+    background-color: orange;
+    
+}
+
+form .top3{
+    background-color: aliceblue;
+    font-size: 20px;
+    color: black;
+}
+
+form .xvalue{
+    font-size: 30px;
+}
